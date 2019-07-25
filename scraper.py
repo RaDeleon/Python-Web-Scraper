@@ -1,8 +1,12 @@
 from bs4 import BeautifulSoup
 import requests
 
-requests.get('https://www.youtube.com/results?search_query=python')
+res = requests.get('https://www.youtube.com/results?search_query=python')
 
+res.text
+
+
+print(res.text)
 
 
 
