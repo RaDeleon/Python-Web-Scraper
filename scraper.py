@@ -1,5 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
+import random
+import webbrowser
+
 
 res = requests.get('https://www.youtube.com/results?search_query=python')
 
